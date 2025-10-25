@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: security-reactive
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/test
+    username: postgres
+    password: 180990
+    
+  sql:
+    init:
+      mode:
+        always
